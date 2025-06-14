@@ -1,30 +1,60 @@
-# PDF Renamer GUI (Drag-and-Drop)
+# 🗂️ PDF Renamer GUI
 
-A simple Python GUI tool to rename hundreds of PDF files using an Excel mapping sheet.
+A Python GUI tool to rename 300–1000 PDF files based on values from an Excel spreadsheet.  
+Supports drag-and-drop functionality for fast and efficient file handling.
 
-## Features
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)]()
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-✅ Drag and drop PDF folder  
-✅ Choose Excel mapping file  
-✅ Automatically renames PDFs based on original and new filename  
-✅ Built with `tkinter`, `pandas`, and `tkinterDnD2`
+---
 
-## How to Run
+## 🚀 Features
 
-1. Install dependencies:
+- ✅ Rename large batches of PDF files (300–1000+)
+- 📥 Drag-and-drop support
+- 📊 Reads mapping from Excel (.xlsx)
+- 🖥️ Simple GUI with Tkinter
 
+---
+
+## 📦 Requirements
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
 
+🛠️ How to Use
+1. Clone this repo or download the ZIP.
 
-2. Run the app:
+2. Prepare your Excel file like this:
+
+| Original Filename | New Filename   |
+| ----------------- | -------------- |
+| abc123.pdf        | Invoice001.pdf |
+| xyz456.pdf        | Invoice002.pdf |
+
+3. Run the app:
 python pdf_renamer_gui.py
 
+4. Drag and drop PDFs and Excel file into the app and click Rename.
 
-## Excel Format
+🧠 Tech Stack
+Python 🐍
 
-The Excel file must have:
-- **First column**: Current file names (e.g., `old.pdf`)
-- **Second column**: New file names (e.g., `new.pdf`)
+Pandas
+
+Tkinter
+
+OpenPyXL
+
+📬 Contact
+Questions or ideas? Email me at: arvin.balinado@yahoo.com
+
+📄 License
+This project is licensed under the MIT License.
+
 
 ## Screenshot
 
