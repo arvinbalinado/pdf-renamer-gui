@@ -49,9 +49,6 @@ Tkinter
 
 OpenPyXL
 
-📷 Screenshot
-![PDF Renamer GUI](screenshot.png)
-
 📬 Contact
 Questions or ideas? Email me at: arvin.balinado@yahoo.com
 
