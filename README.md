@@ -49,6 +49,9 @@ Tkinter
 
 OpenPyXL
 
+📷 Screenshot
+![PDF Renamer GUI](screenshot.png)
+
 📬 Contact
 Questions or ideas? Email me at: arvin.balinado@yahoo.com
 
@@ -56,11 +59,5 @@ Questions or ideas? Email me at: arvin.balinado@yahoo.com
 This project is licensed under the MIT License.
 
 
-## Screenshot
-
-![PDF Renamer GUI](screenshot.png)
-
-
-## Author
-
+👤 Author
 Arvin Balinado
